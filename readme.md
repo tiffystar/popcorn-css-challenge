@@ -5,3 +5,44 @@ Recreate the site below
 The colors required are in the css file.
 
 Do this via "popcorn programming" in groups.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popcorn CSS Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Popcorn Palace</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <h2>Delicious Popcorn Flavors</h2>
+                <p>Try our mouth-watering popcorn flavors, made with the finest ingredients!</p>
+                <button>Order Now</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Popcorn Palace</p>
+        </div>
+    </footer>
+</body>
+</html>
